@@ -50,9 +50,7 @@ MarineRain 的数据构建遵循以下原则：
 
 ## 📸 数据集示例
 
-> 下面示例图请你后续替换为仓库内真实图片路径（建议放到 `assets/` 或 `figures/` 下）。
-
-### 示例 1：RealRain-2k 真实雨纹层（Real Rain Streak Layer）
+### 1.RealRain-2k 真实雨纹层（Real Rain Streak Layer）
 
 <div align="center">
   <img src="assets/examples/realrain_layer.png" alt="RealRain-2k 真实雨纹层示例" width="600">
@@ -63,7 +61,7 @@ MarineRain 的数据构建遵循以下原则：
 
 ---
 
-### 示例 2：MarineRain-8k 配对样本（Rain-Fog / Clean Pair）
+### 2.MarineRain-8k 配对样本（Rain-Fog / Clean Pair）
 
 <div align="center">
   <img src="assets/examples/pair_rainfog_clean.png" alt="MarineRain-8k 配对样本示例" width="800">
