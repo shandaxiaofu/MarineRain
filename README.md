@@ -27,7 +27,7 @@ MarineRain 的数据构建遵循以下原则：
    - 基于单目深度估计获得场景深度
    - 将雨纹随深度衰减与雾散射（透射率）耦合，形成更贴近海上远距离成像的退化规律（近处雨纹更显著、远处雾幕更强）
   <div align="center">
-  <img src="Rainfall.jpg" alt="雨雾耦合数据集生成流程图" width="600">
+  <img src="Farme.jpg" alt="雨雾耦合数据集生成流程图" width="600">
 </div>
 
 3. **海洋任务导向（Maritime-Oriented Benchmark）**
