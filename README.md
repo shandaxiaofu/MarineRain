@@ -85,7 +85,7 @@ MarineRain 的数据构建遵循以下原则：
         <p><b>雨雾海洋图像目标检测</b></p>
       </td>
       <td align="center" width="50%">
-        <img src="detect_af.jpg" alt="提出的数据集在去除后目标检测示例" width="300">
+        <img src="detect_af.png" alt="提出的数据集在去除后目标检测示例" width="300">
         <p><b>雨雾海洋图像恢复后目标检测</b></p>
       </td>
     </tr>
