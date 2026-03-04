@@ -1,5 +1,3 @@
-# MarineRain
-
 <div align="center">
   <p>
     <strong>MarineRain: From Real Rain Streaks to Physically Grounded Marine Rain-Fog Images</strong>
