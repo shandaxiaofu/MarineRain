@@ -3,6 +3,7 @@
     面向海洋场景的雨雾退化图像复原基准：<b>8.5k 配对 rain-fog/clean</b> + <b>2k 真实雨纹层库</b>
   </p>
 </div>
+
 ## 📋 项目概述
 
 **MarineRain** 是一个面向海洋/水面环境（ocean–lake–river 等）**雨雾退化图像复原**（single-image rain-fog removal / restoration）的数据集与评测基准。  
