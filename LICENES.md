@@ -92,9 +92,3 @@ DAMAGES, OR OTHER LIABILITY ARISING FROM THE DATASET OR ITS USE.
 For permissions (redistribution, commercial use, extended image usage), please contact the authors via:
 - GitHub Issues on this repository, or
 - the email provided in the paper / project page.
-
----
-
-## Notes (Recommended Repository Practice)
-- To protect pre-publication originality, we recommend hosting only **scripts + a small sample set** in this repo,
-  and distributing the **full dataset** via request/approval under the terms above.
