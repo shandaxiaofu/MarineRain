@@ -20,5 +20,5 @@ You may not apply legal terms or technological measures that legally restrict ot
 ---
 
 **Dataset:** MarineRain  
-**Author:** shandaxiaofu  
-**Year:** 2024
+**Author:**  Dan Zhanga, Jingchen Gao, Yingbin Xu, Yaoran Chena,, Yan Penga, Yang Zhou and Liyan Ma
+**Year:** 2026
