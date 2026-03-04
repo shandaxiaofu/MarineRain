@@ -67,7 +67,7 @@ MarineRain 的数据构建遵循以下原则：
 ### 2.MarineRain-8k 配对样本（Rain-Fog / Clean Pair）
 
 <div align="center">
-  <img src="Rainfall.jpg" alt="MarineRain-8k 配对样本示例" width="800">
+  <img src="MarineRain.jpg" alt="MarineRain-8k 配对样本示例" width="800">
 </div>
 
 **说明：**  
@@ -78,10 +78,22 @@ MarineRain 的数据构建遵循以下原则：
 ### 3.下游船舶检测增益（Before/After Restoration for Ship Detection）
 
 <div align="center">
-  <img src="assets/examples/downstream_detection.png" alt="复原前后船舶检测对比" width="900">
+  <table>
+    <tr>
+      <td align="center" width="50%">
+        <img src="detect_no.jpg" alt="提出的数据集在去除前目标检测示例" width="300">
+        <p><b>雨雾海洋图像目标检测</b></p>
+      </td>
+      <td align="center" width="50%">
+        <img src="detect_af.jpg" alt="提出的数据集在去除后目标检测示例" width="300">
+        <p><b>雨雾海洋图像恢复后目标检测</b></p>
+      </td>
+    </tr>
+  </table>
 </div>
 **说明：**  
 该示例用于展示：在雨雾退化条件下，复原模型输出的更清晰图像可提升下游船舶检测的置信度与检测效果，从而体现 MarineRain 在真实海洋视觉任务中的应用价值。
 ---
-## 🗂️ 数据组织结构
+
+
 
