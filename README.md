@@ -25,6 +25,9 @@ MarineRain 的数据构建遵循以下原则：
 2. **物理一致的雨雾耦合退化（Physically Grounded Rain-Fog Model）**
    - 基于单目深度估计获得场景深度
    - 将雨纹随深度衰减与雾散射（透射率）耦合，形成更贴近海上远距离成像的退化规律（近处雨纹更显著、远处雾幕更强）
+  <div align="center">
+  <img src="Rainfall.jpg" alt="雨雾耦合数据集生成流程图" width="600">
+</div>
 
 3. **海洋任务导向（Maritime-Oriented Benchmark）**
    - 以海洋/水面视觉任务为目标（如船舶目标检测）
@@ -53,7 +56,7 @@ MarineRain 的数据构建遵循以下原则：
 ### 1.RealRain-2k 真实雨纹层（Real Rain Streak Layer）
 
 <div align="center">
-  <img src="assets/examples/realrain_layer.png" alt="RealRain-2k 真实雨纹层示例" width="600">
+  <img src="Rainfall.jpg" alt="RealRain-2k 真实雨纹层示例" width="600">
 </div>
 
 **说明：**  
@@ -64,7 +67,7 @@ MarineRain 的数据构建遵循以下原则：
 ### 2.MarineRain-8k 配对样本（Rain-Fog / Clean Pair）
 
 <div align="center">
-  <img src="assets/examples/pair_rainfog_clean.png" alt="MarineRain-8k 配对样本示例" width="800">
+  <img src="Rainfall.jpg" alt="MarineRain-8k 配对样本示例" width="800">
 </div>
 
 **说明：**  
@@ -72,18 +75,7 @@ MarineRain 的数据构建遵循以下原则：
 
 ---
 
-### 示例 3：物理一致的深度相关雾幕（Depth-dependent Fog / Transmission）
-
-<div align="center">
-  <img src="assets/examples/depth_transmission_fog.png" alt="深度-透射率-雾幕示意" width="800">
-</div>
-
-**说明：**  
-该示例可展示：深度图（或其归一化形式）、透射率/雾幕强度（与深度相关）、以及最终 rain-fog 合成结果的对应关系，用于直观说明“远处更雾化、雨纹随深度衰减”的物理一致性。
-
----
-
-### 示例 4：下游船舶检测增益（Before/After Restoration for Ship Detection）
+### 3.下游船舶检测增益（Before/After Restoration for Ship Detection）
 
 <div align="center">
   <img src="assets/examples/downstream_detection.png" alt="复原前后船舶检测对比" width="900">
@@ -92,4 +84,4 @@ MarineRain 的数据构建遵循以下原则：
 该示例用于展示：在雨雾退化条件下，复原模型输出的更清晰图像可提升下游船舶检测的置信度与检测效果，从而体现 MarineRain 在真实海洋视觉任务中的应用价值。
 ---
 ## 🗂️ 数据组织结构
-</div>
+
